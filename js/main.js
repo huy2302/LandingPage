@@ -1,11 +1,15 @@
-var number = 30;
-var numbers = () => {
-    return (Math.floor(Math.random() * 100) + 1)
-}
-for (let i = 0 ; i < 100 ; i++) {
-    if (numbers() < number){
-        console.log(1);
-    }else {
-        console.log(2);
-    }
+const btns = document.querySelectorAll('.five-btn-default');
+
+
+for (const btn of btns) {
+    btn.addEventListener('click', () => {
+        if (btn.classList.contains('five-btn-highlight')) {
+            btn.classList.remove('five-btn-highlight');
+            
+        }
+        else {
+            btn.classList.add('five-btn-highlight');
+        }
+        // btn.classList.add('five-btn-highlight')
+    })
 }
