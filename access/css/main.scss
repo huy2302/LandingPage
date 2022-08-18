@@ -25,7 +25,7 @@ html {
   background-color: rgba(0,0,0,0);
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 99;
     #container {
         display: flex;
         justify-content: space-between;
@@ -530,13 +530,24 @@ html {
       }
     }
     .six-content {
-      
+      .dot-next {
+        bottom: -145px;
+        .dot-next_element {
+          background-color: #0056D6;
+          border: none;
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          margin: 0 5px;
+        }
+      }
       .content-customer {
         text-align: center;
         width: 864px;
         margin: 0 auto;
         box-shadow: 0px 20px 60px rgba(46, 33, 61, 0.08);
         border-radius: 10px;
+        margin-bottom: 280px;
         
         .content-customer_layer {
           padding: 0 75px;
@@ -567,6 +578,11 @@ html {
             margin-bottom: 86px;
           }
         }
+        
+      }
+      .slider-btn i {
+        font-size: 30px;
+        color: #000;
       }
     }
   }
