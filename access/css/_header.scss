@@ -1,0 +1,40 @@
+#header {
+    #container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 120px;
+        height: 62px;
+        max-width: 1200px;
+        align-items: center;
+
+        img {
+            width: 120px;
+            height: 15px;
+        }
+
+        .menu {
+                display: flex;
+                justify-content: space-between;
+                
+                a {
+                    line-height: 18px;
+                    font-size: 15px;
+                    color: #6C768D;
+                    text-decoration: none;
+                    margin: 0 18px;
+
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            
+        }
+
+        .language {
+            .selection {
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
