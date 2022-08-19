@@ -36,6 +36,7 @@ html {
         img {
             width: 120px;
             height: 14px;
+            cursor: pointer;
         }
 
         .menu {
@@ -48,9 +49,14 @@ html {
                     color: #6C768D;
                     text-decoration: none;
                     margin: 0 18px;
+                    padding: 10px;
+                    transition: ease 0.3s;
 
                     i {
                         font-size: 12px;
+                    }
+                    &:hover {
+                      opacity: 0.8;
                     }
                 }
             
@@ -62,9 +68,16 @@ html {
                 outline: none;
                 color: #6C768D;
                 background-color: rgba(0,0,0,0);
+                cursor: pointer;
             }
             a {
               margin-left: 18px;
+              transition: ease 0.3s;
+              
+              &:hover {
+                color: #fff;
+                opacity: 0.8;
+              }
             }
         }
     }
@@ -78,6 +91,12 @@ html {
   border-radius: 50px;
   text-decoration: none;
   display: inline-block;
+  transition: ease 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+    color: #fff;
+  }
 }
 
 .learn {
@@ -89,7 +108,14 @@ html {
   text-decoration: none;
   display: inline-block;
   margin-left: 20px;
+  transition: ease 0.3s;
+
+  &:hover {
+    background-color: #ccc;
+  }
 }
+
+// Find & Hire Expert Freelancers
 
 #one {
   .one-bg {
@@ -130,6 +156,8 @@ html {
     right: 0;
   }
 }
+
+// Journey of our Success
 
 #two {
 
@@ -211,12 +239,15 @@ html {
   }
 }
 
+// Our Features
+
 #three {
   background-color: #fff;
   margin-bottom: 150px;
   .three-container {
     max-width: 1118px;
     margin: 0 auto;
+    text-align: center;
 
     .three-header {
       padding-top: 150px;
@@ -268,20 +299,24 @@ html {
 
   a {
     color: #0056D6;
-    /* width: 100px; */
-    text-align: center;
+    padding: 0 10px;
     font-weight: 400;
-    display: block;
     font-size: 20px;
     line-height: 142%;
     text-decoration: underline;
+    transition: ease 0.3s;
     
     i {
       font-size: 14px;
       padding-left: 10px;
     }
+    &:hover {
+      color: #4c88e4;
+    }
   }
 }
+
+// Services
 
 #four {
 
@@ -382,6 +417,8 @@ html {
     }
   }
 }
+
+// Our Projects 
 
 #five {
   
@@ -656,14 +693,27 @@ html {
         .seven-icon {
           display: flex;
           justify-content: space-between;
-          margin: 30px 30px 18.5px 30px;
+          margin: 20px 20px 18.5px 20px;
           i {
+            cursor: pointer;
             font-size: 22px;
+            padding: 10px;
+            transition: ease 0.3s;
+            
+            &:hover {
+              color: rgb(112, 112, 112);
+            }
           }
         }
         .seven-body {
           img {
+            cursor: pointer;
             margin-bottom: 22px;
+            transition: ease 0.3s;
+
+            &:hover {
+              opacity: 0.8;
+            }
           }
           h3 {
             font-weight: 500;
@@ -700,6 +750,9 @@ html {
             line-height: 21px;
             color: #0056D6;
             text-decoration: none;
+            &:hover {
+              opacity: 0.8;
+            }
           }
         }
       }
@@ -744,6 +797,11 @@ html {
         text-decoration: none;
         background-color: #fff;
         border-radius: 20px;
+        transition: ease 0.3s;
+
+        &:hover {
+          background-color: #ccc;
+        }
       }
     }
     p {
@@ -769,6 +827,8 @@ html {
         }
         p {
           cursor: pointer;
+          transition: ease 0.3s;
+
           &:hover {
             opacity: 0.5;
           } 
@@ -788,12 +848,17 @@ html {
             line-height: 17px;
             margin-bottom: 36px;
             color: #fff;
+            transition: ease 0.3s;
+
+
             &:hover {
               opacity: 0.8;
             }
           }
           p {
-            cursor: pointer;    
+            cursor: pointer;  
+            transition: ease 0.3s;
+              
             &:hover {
               opacity: 0.5;
             }        

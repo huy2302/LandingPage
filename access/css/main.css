@@ -34,6 +34,7 @@ html {
 #header #container img {
   width: 120px;
   height: 14px;
+  cursor: pointer;
 }
 #header #container .menu {
   display: flex;
@@ -45,18 +46,29 @@ html {
   color: #6C768D;
   text-decoration: none;
   margin: 0 18px;
+  padding: 10px;
+  transition: ease 0.3s;
 }
 #header #container .menu a i {
   font-size: 12px;
+}
+#header #container .menu a:hover {
+  opacity: 0.8;
 }
 #header #container .language .selection {
   border: none;
   outline: none;
   color: #6C768D;
   background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 #header #container .language a {
   margin-left: 18px;
+  transition: ease 0.3s;
+}
+#header #container .language a:hover {
+  color: #fff;
+  opacity: 0.8;
 }
 
 .contact {
@@ -67,6 +79,11 @@ html {
   border-radius: 50px;
   text-decoration: none;
   display: inline-block;
+  transition: ease 0.3s;
+}
+.contact:hover {
+  opacity: 0.8;
+  color: #fff;
 }
 
 .learn {
@@ -78,6 +95,10 @@ html {
   text-decoration: none;
   display: inline-block;
   margin-left: 20px;
+  transition: ease 0.3s;
+}
+.learn:hover {
+  background-color: #ccc;
 }
 
 #one .one-bg {
@@ -190,6 +211,7 @@ html {
 #three .three-container {
   max-width: 1118px;
   margin: 0 auto;
+  text-align: center;
 }
 #three .three-container .three-header {
   padding-top: 150px;
@@ -237,17 +259,19 @@ html {
 }
 #three a {
   color: #0056D6;
-  /* width: 100px; */
-  text-align: center;
+  padding: 0 10px;
   font-weight: 400;
-  display: block;
   font-size: 20px;
   line-height: 142%;
   text-decoration: underline;
+  transition: ease 0.3s;
 }
 #three a i {
   font-size: 14px;
   padding-left: 10px;
+}
+#three a:hover {
+  color: #4c88e4;
 }
 
 #four .four-container {
@@ -581,13 +605,24 @@ html {
 #seven .seven-container .seven-content .seven-layer .seven-icon {
   display: flex;
   justify-content: space-between;
-  margin: 30px 30px 18.5px 30px;
+  margin: 20px 20px 18.5px 20px;
 }
 #seven .seven-container .seven-content .seven-layer .seven-icon i {
+  cursor: pointer;
   font-size: 22px;
+  padding: 10px;
+  transition: ease 0.3s;
+}
+#seven .seven-container .seven-content .seven-layer .seven-icon i:hover {
+  color: rgb(112, 112, 112);
 }
 #seven .seven-container .seven-content .seven-layer .seven-body img {
+  cursor: pointer;
   margin-bottom: 22px;
+  transition: ease 0.3s;
+}
+#seven .seven-container .seven-content .seven-layer .seven-body img:hover {
+  opacity: 0.8;
 }
 #seven .seven-container .seven-content .seven-layer .seven-body h3 {
   font-weight: 500;
@@ -623,6 +658,9 @@ html {
   line-height: 21px;
   color: #0056D6;
   text-decoration: none;
+}
+#seven .seven-container .seven-content .seven-layer .seven-end a:hover {
+  opacity: 0.8;
 }
 
 #footer {
@@ -661,6 +699,10 @@ html {
   text-decoration: none;
   background-color: #fff;
   border-radius: 20px;
+  transition: ease 0.3s;
+}
+#footer #footer-container .footer-header a:hover {
+  background-color: #ccc;
 }
 #footer #footer-container p {
   color: #fff;
@@ -685,6 +727,7 @@ html {
 }
 #footer #footer-container .footer-content .footer-content_left p {
   cursor: pointer;
+  transition: ease 0.3s;
 }
 #footer #footer-container .footer-content .footer-content_left p:hover {
   opacity: 0.5;
@@ -704,12 +747,14 @@ html {
   line-height: 17px;
   margin-bottom: 36px;
   color: #fff;
+  transition: ease 0.3s;
 }
 #footer #footer-container .footer-content .footer-content_right .content-col h3:hover {
   opacity: 0.8;
 }
 #footer #footer-container .footer-content .footer-content_right .content-col p {
   cursor: pointer;
+  transition: ease 0.3s;
 }
 #footer #footer-container .footer-content .footer-content_right .content-col p:hover {
   opacity: 0.5;
